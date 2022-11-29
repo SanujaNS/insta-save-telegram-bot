@@ -4,11 +4,11 @@ from instaloader import Instaloader, Profile
 from tg_token import TOKEN
 import asyncio
 import os, os.path, glob
-from keyboards import *
+from keyboard import *
 from aiogram.types import ReplyKeyboardRemove, \
     ReplyKeyboardMarkup, KeyboardButton, \
     InlineKeyboardMarkup, InlineKeyboardButton
-import keyboards as kb
+import keyboard as kb
 
 
 bot = Bot(TOKEN)
